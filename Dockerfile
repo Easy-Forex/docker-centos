@@ -11,6 +11,7 @@ RUN yum -y install --setopt=tsflags=nodocs git \
     openssh-clients \
     which \
     wget \
+    tree \
     && yum clean all \
     && rm -rf /var/cache/yum
 
