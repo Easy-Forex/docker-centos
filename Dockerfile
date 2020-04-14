@@ -12,6 +12,7 @@ RUN yum -y install --setopt=tsflags=nodocs git \
     which \
     wget \
     tree \
+    gettext \
     && yum clean all \
     && rm -rf /var/cache/yum
 
